@@ -84,3 +84,22 @@ footer a:hover {
   color: #d8d8d8;
   text-decoration-color: currentColor;
 }
+
+input {
+  width: 130px;
+  min-height: 40px;
+  padding: 0 12px;
+  font: inherit;
+  font-size: 14px;
+  color: #e6e6e6;
+  background: #1c1c1c;
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+}
+input::placeholder {
+  color: #7a7a7a;
+}
+input:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
